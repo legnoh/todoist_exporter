@@ -1,0 +1,8 @@
+---
+filters:
+- name: TODO
+  query: "(due before: +0hours|overdue|no due date) & !#売却リスト & !#作りたいものリスト & subtask"
+- name: TODO - 職場
+  query: "(due before: +0hours|overdue|no due date) & @職場  & !#売却リスト & !#作りたいものリスト & !subtask"
+- name: TODO - 自宅
+  query: "(due before: +0hours|overdue|no due date) & @自宅  & !#売却リスト & !#作りたいものリスト"
